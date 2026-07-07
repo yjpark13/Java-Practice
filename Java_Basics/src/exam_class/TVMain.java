@@ -6,7 +6,7 @@ public class TVMain {
         myTV.show();
 
         TV tv = new TV();
-        tv.setManufacturer("삼성");
+        tv.setManufacturer("삼성티비");
         tv.setYear(2026);
         tv.setSize(32);
         tv.show();
