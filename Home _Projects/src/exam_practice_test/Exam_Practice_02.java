@@ -29,9 +29,9 @@ public class Exam_Practice_02 {
         this.phoneNumber = phoneNumber;
     }
 
-    public void showInfo() {
-        System.out.println("이름 : " + name);
-        System.out.println("전화번호 : " + phoneNumber);
+    public String toString() {
+        return "이름 : " + name +
+                "\n전화번호 : " + phoneNumber;
     }
 
     public static void main(String[] args) {
@@ -49,7 +49,7 @@ public class Exam_Practice_02 {
 
         for (int i = 0; i < practice02.size(); i++) {
             practice02.get(i);
-            System.out.println("하이" + practice02.get(i).showInfo());
+            System.out.println("하이" + practice02.get(i).toString());
         }
     }
 }
